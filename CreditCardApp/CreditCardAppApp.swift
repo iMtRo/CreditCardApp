@@ -1,17 +1,11 @@
-//
-//  CreditCardAppApp.swift
-//  CreditCardApp
-//
-//  Created by user on 06/04/22.
-//
-
 import SwiftUI
 
 @main
-struct CreditCardAppApp: App {
+struct VisaCardAppApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(VisaInfo())
         }
     }
 }

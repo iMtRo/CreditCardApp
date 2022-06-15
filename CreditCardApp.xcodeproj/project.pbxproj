@@ -11,6 +11,8 @@
 		CE68B6DB27FD955100CE6E20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68B6DA27FD955100CE6E20 /* ContentView.swift */; };
 		CE68B6DD27FD955100CE6E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE68B6DC27FD955100CE6E20 /* Assets.xcassets */; };
 		CE68B6E027FD955100CE6E20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE68B6DF27FD955100CE6E20 /* Preview Assets.xcassets */; };
+		CE68B6EA27FD95C000CE6E20 /* VisaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68B6E927FD95C000CE6E20 /* VisaCard.swift */; };
+		CE68B6EC27FD95D300CE6E20 /* VisaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68B6EB27FD95D300CE6E20 /* VisaInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CE68B6DA27FD955100CE6E20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE68B6DC27FD955100CE6E20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE68B6DF27FD955100CE6E20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE68B6E927FD95C000CE6E20 /* VisaCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisaCard.swift; sourceTree = "<group>"; };
+		CE68B6EB27FD95D300CE6E20 /* VisaInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisaInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				CE68B6D827FD955100CE6E20 /* CreditCardAppApp.swift */,
-				CE68B6DA27FD955100CE6E20 /* ContentView.swift */,
-				CE68B6DC27FD955100CE6E20 /* Assets.xcassets */,
+				CE68B6E827FD959B00CE6E20 /* Screens */,
+				CE68B6E727FD959100CE6E20 /* AppUtils */,
 				CE68B6DE27FD955100CE6E20 /* Preview Content */,
 			);
 			path = CreditCardApp;
@@ -65,6 +69,24 @@
 				CE68B6DF27FD955100CE6E20 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE68B6E727FD959100CE6E20 /* AppUtils */ = {
+			isa = PBXGroup;
+			children = (
+				CE68B6EB27FD95D300CE6E20 /* VisaInfo.swift */,
+				CE68B6DC27FD955100CE6E20 /* Assets.xcassets */,
+			);
+			path = AppUtils;
+			sourceTree = "<group>";
+		};
+		CE68B6E827FD959B00CE6E20 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CE68B6DA27FD955100CE6E20 /* ContentView.swift */,
+				CE68B6E927FD95C000CE6E20 /* VisaCard.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE68B6EC27FD95D300CE6E20 /* VisaInfo.swift in Sources */,
 				CE68B6DB27FD955100CE6E20 /* ContentView.swift in Sources */,
 				CE68B6D927FD955100CE6E20 /* CreditCardAppApp.swift in Sources */,
+				CE68B6EA27FD95C000CE6E20 /* VisaCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
